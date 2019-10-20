@@ -1,6 +1,5 @@
 import RPi.GPIO as GPIO
 import sys
-from time import sleep
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM) # GPIO Numbers instead of board numbers
