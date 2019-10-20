@@ -7,7 +7,7 @@ GPIO.setmode(GPIO.BCM) # GPIO Numbers instead of board numbers
 RELAIS_1_GPIO = 5
 GPIO.setup(RELAIS_1_GPIO, GPIO.OUT) # GPIO Assign mode
 
-if len(sys.argv) == 1:
+if len(sys.argv) != 2:
     print("Must supply argument 'on' or 'off")
     sys.exit(1)
 
